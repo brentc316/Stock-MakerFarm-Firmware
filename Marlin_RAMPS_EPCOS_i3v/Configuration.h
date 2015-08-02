@@ -322,6 +322,9 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 // The RepRapDiscount Smart Controller (white PCB)
 // http://reprap.org/wiki/RepRapDiscount_Smart_Controller
 #define REPRAP_DISCOUNT_SMART_CONTROLLER
+ //Fix the encoder scrolling
+ #define ENCODER_PULSES_PER_STEP 4			
+ #define ENCODER_STEPS_PER_MENU_ITEM 1
 
 // The GADGETS3D G3D LCD/SD Controller (blue PCB)
 // http://reprap.org/wiki/RAMPS_1.3/1.4_GADGETS3D_Shield_with_Panel
